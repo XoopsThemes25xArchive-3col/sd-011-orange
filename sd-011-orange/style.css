@@ -1,0 +1,399 @@
+body {
+        background: url(images/background.jpg) repeat-x top left #fff;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9pt;
+        color: #555;
+        margin: 0;
+        padding: 0;
+}
+
+table {
+        width: 100%;
+}
+
+table td {
+        padding: 0;
+        border-width: 0;
+        vertical-align: top;
+}
+
+table#Header {
+        background: url(images/header_bg.jpg) no-repeat top left;
+        height: 200px;
+}
+
+.Logo {
+        padding-top: 50px;
+        padding-left: 30px;
+}
+
+table#Main {
+        background-color: #f5f5f5;
+        border-right: 1px solid #431500;
+        border-left: 1px solid #431500;
+        width: 90%;
+}
+
+table#Footer {
+        width: 90%;
+}
+
+.footer {
+        background-color: #431500;
+        border-top: 2px solid #431500;
+        text-decoration: none;
+        text-align: center;
+        font-weight: normal;
+        font-size: 10px;
+        color: #CCCCCC;
+        padding: 10px 3px;
+}
+
+.footer a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #CCCCCC;
+}
+
+.footer a:hover {
+        color: #CCCCCC;
+}
+
+a {
+         color: #000000;
+         text-decoration: none;
+         font-weight: bold;
+}
+
+a:hover {
+        color: #431500;
+        text-decoration: underline;
+}
+
+h1 {font-size: 160%;}
+h2 {font-size: 140%;}
+h3 {font-size: 120%;}
+h4 {font-size: 110%;}
+h5 {font-size: 100%;}
+h6 {font-size: 90%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+        padding: 0px;
+        margin: 0px;
+}
+
+ul {
+         margin: 2px;
+         padding: 2px;
+         list-style: decimal inside;
+         text-align: left;
+}
+
+li {
+         margin-left: 2px;
+         list-style: square inside;
+         color: #431500;
+}
+
+input.formButton {}
+input {        font-size: 90%;
+}
+
+input:hover {
+}
+
+.item {
+        margin-bottom: 8px;
+}
+
+.itemHead {
+        padding: 3px;
+        color: #431500;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-bottom: 1px solid #cccccc;
+}
+.itemInfo {padding: 3px; text-align: right; }
+.itemTitle a {color: #431500; font-weight: bold; }
+.itemPoster, .itemPostDate, .itemStats, .itemAdminLink, .itemPermaLink {font-size: 90%;}
+.itemBody {
+        padding: 5px;
+}
+
+.itemBody:hover{background-color: #ffffff; }
+.itemText {margin-top: 1px; margin-bottom: 1px; }
+.itemFoot {text-align: right; padding: 3px; }
+
+th {
+        color: #666666;
+        padding : 2px;
+        vertical-align : middle;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td#leftcolumn {
+        width: 170px;
+        padding-left: 10px;
+}
+
+td#leftcolumn th {color: #666666; vertical-align: middle;}
+td#leftcolumn div.blockTitle {
+        color: #000000;
+        padding: 3px 8px;
+        font-weight: bold;
+        text-align: center;
+}
+
+td#leftcolumn div.blockContent {
+        padding: 3px 8px;
+}
+
+td#centercolumn {}
+
+td#centercolumn th {
+        color: #666666;
+        vertical-align: middle;
+        border-bottom: 2px solid #431500;
+}
+
+td#centerCcolumn {padding: 0px 3px 1px 3px; }
+.centercol {}
+.centercol .blockContent a {
+}
+
+.centercol .blockContent a:hover {
+}
+
+.centercol .blockTitle {
+        padding: 3px;
+        color: #431500;
+        font-weight: bold;
+        border-bottom: 1px solid #cccccc;
+}
+
+.centercol .blockContent {
+        padding: 3px;
+        margin-bottom: 10px;
+}
+
+#centerCcolumn div.blockContent:hover, #centerLcolumn div.blockContent:hover, #centerRcolumn div.blockContent:hover{
+        background-color: #FFFFFF;
+}
+
+#centerCcolumn, #bottomCcolumn {padding: 0px 3px 1px 3px; }
+#centerLcolumn, #bottomLcolumn {width: 50%; padding: 0px 8px 0px 0px; }
+#centerRcolumn,  #bottomRcolumn {width: 50%; padding: 0px 0px 0px 8px; }
+
+div#content {text-align: left; padding: 8px; }
+
+td#rightcolumn {
+        width: 170px;
+        padding-right: 10px;
+}
+
+td#rightcolumn th {color: #666666; vertical-align: middle; }
+td#rightcolumn div.blockTitle {
+        padding: 3px 8px;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+}
+
+td#rightcolumn div.blockContent {
+        padding: 3px 8px;
+}
+
+
+td#mainmenu a {
+        display: block;
+        margin: 0;
+        padding: 2px;
+        font-weight: normal;
+        border-bottom: 1px solid #cccccc;
+}
+
+td#mainmenu a:hover {}
+td#mainmenu a.menuTop, td#mainmenu a.menuMain {padding-left: 3px; }
+td#mainmenu a.menuSub {padding-left: 9px; }
+
+td#usermenu a {
+        display: block;
+        margin: 0;
+        padding: 2px;
+        font-weight: normal;
+        border-bottom: 1px solid #cccccc;
+}
+
+td#usermenu a:hover {}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {
+        background-color: #431500;
+        color: #ffffff;
+}
+
+.outer {}
+.head {
+        background-color: #ffffff;
+        border-bottom: 1px solid #ffab33;
+        font-weight: bold;
+        padding: 2px;
+}
+
+.even {
+        background-color: #ffffff;
+        border-bottom: 1px solid #ffab33;
+        padding: 2px;
+}
+
+.odd {
+        background-color: #ffffff;
+        border-bottom: 1px solid #ffab33;
+        padding: 2px;
+}
+
+.foot {
+        font-weight: bold;
+        text-align: center;
+        padding: 2px;
+}
+
+tr.even td {
+        border-bottom: 1px solid #ffab33;
+        padding: 2px;
+}
+
+tr.odd td {
+        border-bottom: 1px solid #ffab33;
+        padding: 2px;
+}
+
+div.errorMsg {
+         background-color: #FFCCCC;
+         text-align: center;
+         border-top: 1px solid #DDDDFF;
+         border-left: 1px solid #DDDDFF;
+         border-right: 1px solid #AAAAAA;
+         border-bottom: 1px solid #AAAAAA;
+         font-weight: bold;
+         padding: 10px;
+}
+
+div.confirmMsg {
+         background-color: #DDFFDF;
+         color: #136C99;
+         text-align: center;
+         border-top: 1px solid #DDDDFF;
+         border-left: 1px solid #DDDDFF;
+         border-right: 1px solid #AAAAAA;
+         border-bottom: 1px solid #AAAAAA;
+         font-weight: bold;
+         padding: 10px;
+}
+
+div.resultMsg {
+         background-color: #cccccc;
+         color: #333333;
+         text-align: center;
+         border-top: 1px solid silver;
+         border-left: 1px solid silver;
+         font-weight: bold;
+         border-right: 1px solid #666666;
+         border-bottom: 1px solid #666666;
+         padding: 10px;
+}
+
+div.xoopsCode {
+         background: #ffffff;
+         border: 1px inset #000080;
+         font-family: "Courier New",Courier,monospace;
+         padding: 0px 6px 6px 6px;
+}
+
+div.xoopsQuote {
+         background: #ffffff;
+         border: 1px inset #000080;
+         font-family: "Courier New",Courier,monospace;
+         padding: 0px 6px 6px 6px;
+}
+
+.comTitle {font-weight: bold; margin-bottom: 2px; }
+.comText {padding: 2px;}
+.comUserStat {
+         font-size: 10px;
+         color: #0053A6;
+         font-weight:bold;
+         border: 1px solid silver;
+         background-color: #ffffff;
+         margin: 2px;
+         padding: 2px;
+}
+.comUserStatCaption {font-weight: normal; }
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #0053A6; font-weight:bold; font-size: 10px; }
+.comUserRank {margin: 2px; }
+.comUserRankText {font-size: 10px; font-weight: bold; }
+.comUserRankImg {border: 0; }
+.comUserName {}
+.comUserImg {margin: 2px; }
+.comDate {font-weight: normal; font-style: italic; font-size: smaller; }
+.comDateCaption {font-weight: bold; font-style: normal; }
+
+/*---Headmenue---*/
+.headmenu {
+        text-align: center;
+ }
+
+.headmenu a{
+        background: url(images/menu-bgorange.gif) repeat-x;
+        color: #ffffff;
+        font-size: 90%x;
+        height: 15px;
+        display: block;
+        text-decoration: none;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-top: 1px solid #431500;
+        border-bottom: 1px solid #431500;
+        border-left: 1px solid #431500;
+}
+
+.headmenu a:hover{
+        background: url(images/menu-bg-orange.gif) repeat-x;
+        color:  #FFFFFF;
+        text-decoration: none;
+}
+
+.headmenu a.menuHead{
+}
+
+table#Menu {
+        background-color: #431500;
+}
+
+/*---Ende-Menue---*/
+.clr {
+        background: url(images/cmiddle.gif) repeat-y;
+        width: 176px;
+}
+
+.ctop {
+        background: url(images/ctop.gif) no-repeat;
+        height: 20px;
+}
+
+.cmiddle {
+        background: url(images/cmiddle.gif) repeat-y;
+}
+
+.cbottom {
+        background: url(images/cbottom.gif) no-repeat;
+        height: 19px;
+}
+
+select {
+        font-size: 90%;
+}
+
+textarea {}
